@@ -1,0 +1,29 @@
+gui-name: '&f七七七七七七七七ሔ'
+
+cooldown-hours: 12
+
+info-item:
+  material: EMERALD
+  custom-model-data: 1010
+  name: '&bInfo'
+  lore:
+    - 'info o połowach'
+
+rewards:
+  magic_fish:
+    material: DIAMOND
+    name: '&bMagiczna Ryba'
+    lore:
+      - '&7Rzadki połów'
+      - '&6Wartość jest bardzo duża'
+    custom-model-data: 101
+    enchantments:
+      UNBREAKING;1
+    amount: 2
+    chance: 10
+
+golden_pearl:
+  material: ENDER_PEARL
+  name: "&6Złota Perła"
+  amount: 1
+  chance: 2
