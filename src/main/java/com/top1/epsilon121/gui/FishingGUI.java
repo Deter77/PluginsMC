@@ -134,7 +134,7 @@ public class FishingGUI implements Listener {
                 updateFishingSpots();
 
                 if (clicksRemaining <= 0) {
-                    Bukkit.getScheduler().runTaskLater(plugin, player::closeInventory, 10L);
+                    Bukkit.getScheduler().runTaskLater(plugin, (Runnable) player::closeInventory, 10L);
                 }
             }
         }
