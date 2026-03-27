@@ -23,7 +23,3 @@ dependencies {
 tasks.processResources {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
-
-tasks.jar {
-    from("src/main/resources")
-}
