@@ -1,0 +1,33 @@
+name: FoxRybak
+version: '1.0'
+main: com.top1.epsilon121.FoxRybak
+api-version: '1.21'
+authors: [FoxRybak]
+description: Plugin do łowienia przedmiotów w specjalnym GUI
+website: https://example.com
+
+commands:
+  rybakpolow:
+    description: Otwiera GUI połowu dla gracza
+    usage: /rybakpolow <gracz> open
+    permission: rybak.admin
+
+permissions:
+  rybak.admin:
+    description: Pozwala na używanie komendy /rybakpolow
+    default: op
+  rybak.player:
+    description: Pozwala na 5 losowań w GUI połowu
+    default: true
+  rybak.vip:
+    description: Pozwala na 6 losowań w GUI połowu
+    default: false
+  rybak.svip:
+    description: Pozwala na 7 losowań w GUI połowu
+    default: false
+  rybak.mvip:
+    description: Pozwala na 8 losowań w GUI połowu
+    default: false
+  rybak.fox:
+    description: Pozwala na 10 losowań w GUI połowu
+    default: false
