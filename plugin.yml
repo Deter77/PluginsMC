@@ -1,10 +1,10 @@
-name: Rybak
+name: FoxRybak
 version: '1.0'
-main: com.top1.epsilon121.Epsilon121
+main: com.top1.epsilon121.FoxRybak
 api-version: '1.21'
-authors: [EpsilonCode]
+authors: [FoxRybak]
 description: Plugin do łowienia przedmiotów w specjalnym GUI
-website: https://epsiloncode.pl
+website: https://example.com
 
 commands:
   rybakpolow:
